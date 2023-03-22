@@ -5,7 +5,7 @@ import torch
 import argparse
 from bias_utils import collate, how_many_tokens, find_mask_token
 import pandas as pd
-from model import Aligned_BERT
+#from model import Aligned_BERT
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
